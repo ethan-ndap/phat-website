@@ -4,22 +4,53 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Phat Website</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body
+    {
+      background-color:antiquewhite;
+      font-size: 25px;
+      line-height:30px;
+    }
+    div{
+      margin-left: 350px;
+      margin-right: 350px;
+    }
+
+    #avatar{
+      border-radius: 50%;
+      height: 250px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    a{
+      text-decoration: none;
+      color: red;
+    }
+    a:hover{
+      color: blue;
+    }
+
+  </style>
 </head>
 <body>
-  <div>
-    <p>Hello World</p>
+  <div class="images">
+    <img id="avatar" src="images\avatar-city-view.jpg" alt="Phat's avatar" >
   </div>
   <div>
-    About Phat
-  </div>
-  <div>
-    <img src="images\20th-birthday1.jpg" alt="Phat's avatar" style="border-radius: 30px; height: 200px;">
-  </div>
-  <div>
-    <p> Hi, I'm Phat. <br>
-      I am study at University of Wollongong (UOW) in Australia <br>
+    <h3>About Phat</h3>
+    <p> Hi, I'm Phat. </p>
+    <p> I am studying at University of Wollongong (UOW) in Australia <br>
       I love <a href="https://www.youtube.com/@DaiPhatNguyenn" target="_blank">share</a> my experience such as reading, running, playing tennis, working as volunteer in VGONG and PULSE in UOW
     </p>
+  </div>
+  <div>
+    <h3>Information</h3>
+    <a href="https://www.linkedin.com/in/phat-nguyen-a5520a265/">Linkedin</a>
+    <br>
+    <a href="https://github.com/ethan-ndap">GitHub</a>
   </div>
 </body>
 </html>
